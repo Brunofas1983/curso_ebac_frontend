@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background: #313641;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display:inline;
+}
+
+header li a {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 16px;
+
+}
+
+header li a:hover {
+    color: #fff;
+    background: #00EE00;  
+    padding: 5px;
+    border-radius: 10px; 
+        
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.articles article img {
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+
+header h1 {
+    padding: 10px 0 10px 0;
+    color: #fff;
+
+}
+
+section {
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+
+section h2, 
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin-top: 16px;
+    margin-bottom: 18px;
+}
+
+.articles article p {
+    margin-bottom: 10px;
+}
+
+.articles article img {
+    margin-bottom: 2px;
+}
+
+.articles article a {
+    background: blue;
+    padding: 8px;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+    background-color: aqua;
+}
+
+
+.articles article p, 
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+.articles article p {
+    font-size: 14px;
+}
+
+#esport {
+    background: rgb(0, 255, 0, 0.1);
+}
+
+#esport .articles article a {
+    background: green
+    
+}
+
+#economic {
+    background: #FFC125;
+}
+
+#economic .articles article a {
+    background: #FF4500;
+}
+
+#econimic .articles article img {
+    width: 100%;
+}
+
+#tecnol {
+    background: #1E90FF;
+}
+
+#tecnol h2 {
+    color: #fff;
+}
+ 
+#tecnol h3 {
+    color: #fff;
+}
+
+#tecnol time {
+    color: #fff;
+}
+
+#tecnol p {
+    color: #fff;
+}
+
+#entret {
+    background: #FF4500;
+}
+
+#entret h2 {
+    color: #fff;
+}
+
+#entret h3 {
+    color: #fff;
+}
+
+#entret p {
+    color: #fff;
+}
+
+#entret time {
+    color: #fff;
+}
+
+#entret a {
+    background: #2F4F4F;
+}
+
+#entret a:hover {
+    background: #FFC125;
+}
+
+.articles article img {
+    border-radius: 10px;
+}
